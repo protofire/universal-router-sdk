@@ -87,6 +87,18 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
     creationBlock: 31583684,
   },
+  // zora mainnet (TODO: patching with placeholder value for now)
+  [7777777]: {
+    router: '0x15B152ED4673586Aa191c34E0F5D608CeEf664ff',
+    weth: '0x4200000000000000000000000000000000000006',
+    creationBlock: 5864380,
+  },
+  // zora sepolia
+  [999999999]: {
+    router: '0x15B152ED4673586Aa191c34E0F5D608CeEf664ff',
+    weth: '0x4200000000000000000000000000000000000006',
+    creationBlock: 5824447,
+  },
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
