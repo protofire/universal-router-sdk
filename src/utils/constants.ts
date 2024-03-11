@@ -99,7 +99,7 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0x4200000000000000000000000000000000000006',
     creationBlock: 9107268,
   },
-  // zora mainnet
+  // zora mainnet (TODO: patching with placeholder value for now)
   [7777777]: {
     router: '0x15B152ED4673586Aa191c34E0F5D608CeEf664ff',
     weth: '0x4200000000000000000000000000000000000006',
@@ -107,7 +107,7 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
   },
   // zora sepolia
   [999999999]: {
-    router: '0x608c8e8E986C7Bb3D6467Bcc592d4868Ac803C68',
+    router: '0x15B152ED4673586Aa191c34E0F5D608CeEf664ff',
     weth: '0x4200000000000000000000000000000000000006',
     creationBlock: 5824447,
   },
